@@ -1,14 +1,13 @@
 package ch.zuehlke.scfg.fraction;
-
 import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-public class SmokeTest {
+
+public class MathTest {
 
 	@Test
-	public void test() {
-		fail("Not yet implemented");
+	public void ggt() {
+		assertEquals(2, Math.ggt(6, 8));
 	}
-
 }
